@@ -1,10 +1,11 @@
 const jsonlib = require('../index');
-
+const fs = require('fs');
+const jsonPath = './users.json';
 //Three ways to load json
-let myModel = jsonlib.model('./user.json');
+let myModel = jsonlib.model(jsonPath);
 let myModel2 = jsonlib.model(`
 {
-  "name": "user",
+  "name": "users",
   "data": [
     {
       "name": "jack",
@@ -24,7 +25,7 @@ let myModel2 = jsonlib.model(`
 }
 `);
 let myModel3 = jsonlib.model({
-  "name": "user",
+  "name": "users",
   "data": [
     {
       "name": "jack",
@@ -66,3 +67,10 @@ console.log('=> read: bob');
 console.log(myModel.findSync({'name': /bob/i}));
 console.log(myModel2.findSync({'name': /bob/i}));
 console.log(myModel3.findSync({'name': /bob/i}));
+console.log('=> get json stirngs');
+let json = myModel.toString({
+  compression: false
+});
+console.log(json);
+console.log('=> write to file with json stirngs');
+fs.writeFileSync(jsonPath, json);

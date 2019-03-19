@@ -35,7 +35,7 @@ import jsonlib from 'json-lib';
 
 methods | description | example
 ---|---|---
-model(context: filePath \| JSONstinrg \| JSONObject) | Load json data format | ``let myModel = jsonlib.model('./user.json');`` or ``let myModel = jsonlib.model([{foo: 'bar'}]);``
+model(context: filePath \| JSONstinrg \| JSONObject) | Load json data format | ``let myModel = jsonlib.model('./users.json');`` or ``let myModel = jsonlib.model([{foo: 'bar'}]);``
 
 ### model
 
@@ -64,7 +64,7 @@ updateOneAsync(conditions: object, newObject: object): number | Update a piece o
 const jsonlib = require('json-lib');
 
 //Three ways to load json
-let myModel = jsonlib.model('./user.json');
+let myModel = jsonlib.model('./users.json');
 let myModel2 = jsonlib.model(`
 {
   "name": "user",
