@@ -1,0 +1,19 @@
+{
+  "name": "user",
+  "data": [
+    {
+      "name": "jack",
+      "age": 25,
+      "sex": 1,
+      "height": 180,
+      "weight": 70
+    },
+    {
+      "name": "bob",
+      "age": 28,
+      "sex": 1,
+      "height": 170,
+      "weight": 65
+    }
+  ]
+}

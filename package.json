@@ -1,0 +1,26 @@
+{
+  "name": "json-lib",
+  "version": "0.0.1",
+  "description": "json 操作类库",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisniuse/json-lib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisniuse/json-lib/issues"
+  },
+  "homepage": "https://github.com/lisniuse/json-lib#readme",
+  "dependencies": {
+    "ispro": "^0.1.3",
+    "lodash": "^4.17.11"
+  }
+}
