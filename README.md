@@ -1,8 +1,8 @@
-# json-table
+# json-lib
 
 A json data manipulation class library.
 
-Json-table has a [Mongoose](https://mongoosejs.com/)-like api that is a simplified version of [Mongoose](https://mongoosejs.com/)'s api.
+json-lib has a [Mongoose](https://mongoosejs.com/)-like api that is a simplified version of [Mongoose](https://mongoosejs.com/)'s api.
 
 ## Installation
 
