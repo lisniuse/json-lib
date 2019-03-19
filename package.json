@@ -29,5 +29,10 @@
   "dependencies": {
     "ispro": "^0.1.3",
     "lodash": "^4.17.11"
-  }
+  },
+  "keywords": [
+    "json",
+    "db",
+    "jsonapi"
+  ]
 }
