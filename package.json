@@ -18,6 +18,13 @@
   "bugs": {
     "url": "https://github.com/lisniuse/json-lib/issues"
   },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "Readme_cn.md",
+    "index.js",
+    "lib/"
+  ],
   "homepage": "https://github.com/lisniuse/json-lib#readme",
   "dependencies": {
     "ispro": "^0.1.3",
